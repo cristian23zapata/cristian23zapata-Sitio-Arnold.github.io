@@ -1,0 +1,164 @@
+/*
+css: CASCADE STYLE SHEET ===> HOJA DE ESTILOS EN CASCADA.
+apariencia y distribucion del sitio 
+*/
+/*etiqueta global*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+    font-family: "Roboto Mono", monospace;
+    background-image: url(fondo-metal-grunge-aranazos-manchas.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.logo{
+    color: rgb(252, 249, 249); /*color de frente*/
+    background-color: rgb(44, 44, 44); /*color de fondo de la caja*/
+    padding: 20px; /*ancho del marco interno*/
+    border-radius: 200px; /*redondeo de los bordes de la caja*/
+    text-align: center; /*alineacion del texto contenido de la caja*/
+    border: solid rgb(250, 0, 0); /*estilo del borde y el color*/
+    border-width: 10px;
+}
+
+/*etiquetas agrupadas  selector */
+h1,h2{
+    color: rgb(252, 249, 249); /*color de frente*/
+    background-color: rgb(0, 0, 0); /*color de fondo de la caja*/
+    padding: 20px; /*ancho del marco interno*/
+    border-radius: 200px; /*redondeo de los bordes de la caja*/
+    text-align: center; /*alineacion del texto contenido de la caja*/
+    border: solid rgb(250, 0, 0); /*estilo del borde y el color*/
+    border-width: 10px;
+}
+
+
+
+.contenedor{ 
+    width: 100%;
+    background-color: rgb(116, 112, 112);
+    border-radius: 85px;
+    margin: 0 auto; /*centra el contenedor*/
+    padding: 20px;
+    height: 1400px;/*alto de la capa*/
+}
+
+.contenedor-articulos{
+    background-color: gray;
+}
+
+.principal{
+    width: 50%;
+    padding: 5px;
+    float:left;  
+}
+.lateral{
+    width: 38%;
+    float:left;
+}
+
+.pie_pagina{
+    clear:both;
+    background-color: black;
+    color: gray;
+    padding: 30px;
+    height: 100px;
+    font-family:'Courier New', Courier, monospace ;
+    font-size: 14px; 
+}
+
+.info{
+    float: left;
+    width: 45%;
+}
+
+.rsocial{
+    float: left;
+    width: 45%;
+}
+
+
+/*diagramacion del menu*/
+
+.menu{
+    background-color: #272729;
+    padding: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+.menu ul li{
+    display: inline;
+    padding: 10px;
+    list-style: none;
+    border-style: solid;
+    border-color: rgb(255, 0, 0);
+    margin-left: 50px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 12px 5px rgb(61, 57, 57) ;
+}
+
+.menu ul li a{
+    color: white;
+    text-decoration: none ;
+}
+
+/*usando ´seudo clase de css hover reacciona al cursor*/
+.menu ul li a:hover{
+    color: red;
+    font-size: 2em; /*medida relativa para fuentes*/
+}
+
+.principal_servicios1{
+    width: 30%;
+    padding: 3px;
+    float: left;
+}
+
+.principal_servicios2{
+    width: 30%;
+    padding: 3px;
+    float: left;
+}
+
+.lateral_servicios{
+    width: 28%;
+    padding: 5px;
+    float: left;
+}
+
+
+input[type="text"]{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+input[type="text"]:hover{
+    background-color: rgb(25, 28, 247);
+    color : rgb(255, 0, 0);
+}
+
+input[type="submit"]{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+input[type="submit"]:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+}
+
+table,th,tr,td{
+    margin: 0 auto;
+    width: 1000px;
+    background-color: beige;
+    text-align: center;
+    border: solid 2px;
+    border-color: black;
+}
+
+
+
+
